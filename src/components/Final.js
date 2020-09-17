@@ -37,7 +37,7 @@ const Final = ({data,clearState}) => {
                 </div>
             </div>
             <div className="buttons">
-                <Link to  = '/history'><button>history</button></Link>
+                <Link to  = '/history' onClick = {()=> clearState()}><button>history</button></Link>
                 <Link to = '/' onClick = {()=> clearState()} ><button  className = 'finish-button'>finish</button></Link>
             </div>
         </div>
